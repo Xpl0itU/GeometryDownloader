@@ -9,4 +9,4 @@ Linux:
   cd PATH_TO_THE_PROGRAM
   ./gdownloader
 
-I hope everything is clear.
+Download can be found at https://github.com/pavlukivan/GeometryDownloader/releases/
