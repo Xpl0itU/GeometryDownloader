@@ -1,1 +1,1 @@
-%AppData%\GeometryDash\
+%UserProfile%\AppData\Local\GeometryDash\
