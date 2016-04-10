@@ -4,9 +4,10 @@ Setup:
 
 Launch:
 Windows:
-  Launch start.exe
+1.  Launch start.exe
+
 Linux:
-  cd PATH_TO_THE_PROGRAM
-  ./gdownloader
+1.  cd PATH_TO_THE_PROGRAM
+2.  ./gdownloader
 
 Download can be found at https://github.com/pavlukivan/GeometryDownloader/releases/
