@@ -1,1 +1,1 @@
-/home/ivan/.PlayOnLinux/wineprefix/SpaceEngineers/drive_c/users/ivan/Local Settings/Application Data/GeometryDash/
+~/.wine/drive_c/users/$USER/Local Settings/Application Data/GeometryDash/
