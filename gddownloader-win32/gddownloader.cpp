@@ -10,11 +10,21 @@ string prepare(string in) {
   string out = "";
   string trueOut = "";
   for(int i = 0; (i < in.length()); i++) {
-    if(((in[i] >= 'a') && (in[i] <= 'z')) || ((in[i] >= 'A') && (in[i] <= 'Z')) || ((in[i] >= '0') && (in[i] <= '9'))) {
-      out += in[i];
-    } else if((in[i] == ' ') || (in[i] == '-')) {
-      out += '-';
-    }
+		if(((in[i] >= 'a') && (in[i] <= 'z')) || ((in[i] >= 'A') && (in[i] <= 'Z')) || ((in[i] >= '0') && (in[i] <= '9'))) {
+			out += in[i];
+		} else if((in[i] == ' ') || (in[i] == '-')) {
+			out += '-';
+		} else if(in[i] == '_') {
+			out += '_';
+		} else if(in[i] == '"') {
+			out += "quot";
+		} else if(in[i] == '&') {
+			out += "amp";
+		} else if(in[i] == '>') {
+			out += "gt";
+		} else if(in[i] == '<') {
+			out += "lt";
+		}
   }
   for(int i = 0; i < 26; i++) {
     if(i < out.length()) {
