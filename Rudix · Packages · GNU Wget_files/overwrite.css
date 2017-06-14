@@ -1,0 +1,18 @@
+body { background: Snow;
+       font-size: 16px;
+       font-family: Helvetica Neue, Verdana, Helvetica; }
+
+body > .container { padding-top: 60px;
+                    padding-bottom: 40px; }
+
+h1, h2, h3, h4 { font-family: Helvetica Neue, Verdana, Helvetica; }
+
+h1 { font-size: 32px; }
+
+pre, code { font-family: Monaco, Andale Mono, Monospace;
+            font-size: 14px; background: Snow;
+            background: WhiteSmoke; }
+
+.navbar-inner { background: DarkRed !important; }
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover { background-color: IndianRed; color: Snow;}
