@@ -67,7 +67,8 @@ int main() {
   bbb += geometrypath; //"/Users/samuelcarballogarcia/Downloads/GeometryDownloader-master/gddownloader-linux";
   bbb += id;
   bbb += ".mp3\"";
-    cout << "Done,Don't forget to change the name of the song";
-  cout << "                                ";
+  system(bbb.c_str());
+    cout << "Done,Don't forget that the downloaded songs are in this folder";
+  cout << "                  ";
     return 0;
   }
